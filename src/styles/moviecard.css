@@ -34,3 +34,17 @@
     padding: 0px 10px;
     margin-top: 5px;
 }
+
+
+@media (max-width: 417px) {
+    .movieCardWrapper {
+        height: fit-content;
+        width: 290px;
+        border: 1px solid red;
+    }
+
+    .title {
+        flex-direction: column;
+        text-align: center;
+    }
+}
