@@ -1,0 +1,33 @@
+.genres {
+    border: 1px solid rgb(71, 71, 71);
+    width: fit-content;
+    padding: 5px 20px;
+    margin-left: 10px;
+    margin-left: 35px;
+    border-radius: 20px;
+    background-color: rgb(141, 141, 141);
+    transition: 0.5s;
+}
+
+h1 {
+    margin-left: 35px;
+}
+
+.genresWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.genres:hover {
+    background-color: rgb(73, 185, 255);
+    cursor: pointer;
+}
+
+.active {
+    background-color: rgb(73, 185, 255);
+}
+
+.genreContainer {
+    display: flex;
+}
