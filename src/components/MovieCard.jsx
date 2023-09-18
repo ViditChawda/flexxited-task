@@ -25,7 +25,7 @@ function MovieCard({ index, title, rated, genres, likedMovies, toggleLike }) {
                     </span>
                 ))}
             </div>
-            <div>
+            <div className='ratedWrapper'>
                 Rated: <span className='rated'>{rated}</span>
             </div>
         </div>

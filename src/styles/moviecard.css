@@ -47,4 +47,12 @@
         flex-direction: column;
         text-align: center;
     }
+
+    .genre {
+        text-align: center;
+    }
+
+    .ratedWrapper {
+        text-align: center;
+    }
 }
