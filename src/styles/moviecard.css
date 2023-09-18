@@ -49,10 +49,12 @@
     }
 
     .genre {
+        margin-top: 10px;
         text-align: center;
     }
 
     .ratedWrapper {
+        margin-top: 10px;
         text-align: center;
     }
 }
