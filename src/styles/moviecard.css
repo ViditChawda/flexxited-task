@@ -40,7 +40,6 @@
     .movieCardWrapper {
         height: fit-content;
         width: 290px;
-        border: 1px solid red;
     }
 
     .title {
