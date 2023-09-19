@@ -1,5 +1,4 @@
 import React from 'react'
-import { AiOutlineHeart, AiFillHeart } from 'react-icons/ai';
 import MovieCard from './MovieCard';
 
 function Wishlist({ tags = [], movies, likedMovies, setLikedMovies, toggleLike }) {
